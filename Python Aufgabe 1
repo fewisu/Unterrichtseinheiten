@@ -1,0 +1,4 @@
+print("Hallo Nutzer")
+zahl = int(input('Gib eine Zahl ein: '))
+zahl += zahl
+print(f'Das doppelte der Zahl lautet: {zahl}')
