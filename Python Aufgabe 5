@@ -1,0 +1,3 @@
+zeichenkette += zeichenkette
+summe = float(ganzzahl+kommazahl)
+print(f'Dein String {zeichenkette} Deine Ganzzahl {ganzzahl} deine Summe {summe}')
