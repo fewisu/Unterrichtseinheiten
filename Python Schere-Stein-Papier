@@ -1,0 +1,12 @@
+import random
+spielzuege= ["Schere","Stein","Papier"]
+computerWahl=random.choice(spielzuege)
+print("Lass uns Schere Stein Papier spielen.")
+nutzerWahl= input("Was möchtest du einsetzen:")
+print(computerWahl)
+if (nutzerWahl=="Schere" and computerWahl == "Papier") or (nutzerWahl=="Stein" and computerWahl == "Schere") or (nutzerWahl=="Papier" and computerWahl == "Stein"):
+    print("Du hast gewonnen!")
+elif (nutzerWahl=="Stein" and computerWahl=="Stein") or (nutzerWahl=="Schere" and computerWahl=="Schere") or (nutzerWahl=="Papier" and computerWahl=="Papier"):
+   print("Unentschieden.")
+else:
+    print("Du verlierst!")
