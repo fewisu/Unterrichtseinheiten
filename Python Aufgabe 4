@@ -1,0 +1,10 @@
+4) Lösung
+
+
+zeichenkette = input('Gib einen String ein: ')
+
+ganzzahl = int(input('Gib eine Ganzzahl ein: '))
+
+kommazahl= float(input('Gib eine Kommazahl ein: '))
+
+print(f'Dein String {zeichenkette} Deine Ganzzahl {ganzzahl} deine Kommazahl {kommazahl}')
