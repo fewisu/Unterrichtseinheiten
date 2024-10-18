@@ -1,0 +1,12 @@
+Lösung Aufgabe 7)
+
+import random
+ganzzahl=0
+randomzahl= random.randint(1,100) 
+while ganzzahl != randomzahl:
+    ganzzahl = int(input('Gib eine Ganzzahl ein: '))
+    if ganzzahl < randomzahl:
+        print("Zu niedrig")
+    if ganzzahl > randomzahl:
+        print("Zu hoch")
+print(f'Du hast die Zufallszahl erraten')
