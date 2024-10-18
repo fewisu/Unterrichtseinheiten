@@ -1,0 +1,8 @@
+print("Willkommen in Ralphs Fischer - Fischhandel")
+print('Zander 35€')
+print('Steinbutt 27€')
+print('Forelle 12€')
+print('Karpfen 25€')
+bestellung = input('Welchen Fisch willst du bestellen? ')
+
+print(f'Du hast einen {bestellung} bestellt')
